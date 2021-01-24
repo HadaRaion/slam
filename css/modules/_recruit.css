@@ -1,0 +1,17 @@
+.recruit {
+	#kboard-default-list .kboard-list {
+		table td.kboard-list {
+			&-uid {
+				display: none;
+			}
+
+			&-user {
+				width: 120px;
+			}
+
+			&-date {
+				width: 80px;
+			}
+		}
+	}
+}

@@ -1,0 +1,45 @@
+main {
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	min-height: 100vh;
+	background-size: cover;
+	transition: all 0.5s var(--easing);
+	padding-top: var(--header-height);
+	padding-bottom: var(--header-height);
+}
+
+.blur {
+	filter: blur(5px);
+}
+
+.black-filter {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	z-index: 30;
+	background-color: #000;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.5s var(--easing);
+
+	&.active {
+		opacity: 0.4;
+	}
+}
+
+.page-header {
+	padding: 80px;
+	text-align: center;
+
+	@mixin atMedium {
+		padding: 90px;
+	}
+	@mixin atSmall {
+		padding: 60px;
+	}
+}

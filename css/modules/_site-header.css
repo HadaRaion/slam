@@ -1,0 +1,32 @@
+.header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 10;
+	padding: var(--header-padding) 0;
+	transition: background 0.5s linear;
+
+	.logo > img {
+		height: var(--logo-height);
+	}
+
+	&.active {
+		background: linear-gradient($slamDark 100%, transparent);
+		/* border-bottom: 1px solid #fff; */
+	}
+}
+
+.social {
+	display: flex;
+
+	& li {
+		padding: 10px;
+		margin-left: 20px;
+		margin-right: -10px;
+	}
+
+	a {
+		display: block;
+		font-size: 2rem;
+	}
+}

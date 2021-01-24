@@ -1,0 +1,7 @@
+bundled-assets/
+node_modules/
+images/
+*.mp4
+package-lock.json
+.DS_Store
+.vscode
