@@ -15,6 +15,7 @@
 @import 'modules/_menu';
 @import 'modules/_main';
 @import 'modules/_mouse';
+@import 'modules/_loader';
 
 /* BEM Blocks for each page */
 @import 'modules/_home';

@@ -1,29 +1,85 @@
 import barba from '@barba/core';
-import barbaPrefetch from '@barba/prefetch';
 import gsap from 'gsap';
 import initImageSlide from './initImageSlide';
 import videoSource from './mainVideo';
 import { animationLeave, animationEnter, mobileMenuOff } from '../animations';
 
-barba.use(barbaPrefetch);
+barba.hooks.enter(() => {
+	window.scrollTo(0, 0);
+});
 
 barba.hooks.after(() => {
 	ga('set', 'page', window.location.pathname);
 	ga('send', 'pageview');
 });
 
+function delay(n) {
+	n = n || 2000;
+	return new Promise(done => {
+		setTimeout(() => {
+			done();
+		}, n);
+	});
+}
+
+// function loadingAnimation() {
+// 	var tl = gsap.timeline();
+
+// 	tl.from('.loader__logo', {
+// 		duration: 0.6,
+// 		height: 0,
+// 		ease: 'power1.out',
+// 		delay: 0.3,
+// 	}).to('.loader', {
+// 		duration: 0.6,
+// 		width: 0,
+// 		ease: 'power1.out',
+// 		delay: 1,
+// 		// onComplete: () => animationEnter(next.container),
+// 	});
+// }
+
+function loadingAnimation() {
+	var tl = gsap.timeline();
+
+	tl.to('.loader__logo__bottom', {
+		duration: 1.5,
+		opacity: 1,
+		ease: 'power4.in',
+	})
+		.from('.loader__logo__top > img', {
+			duration: 0.5,
+			yPercent: 100,
+			stagger: 0.1,
+			delay: 0.2,
+		})
+		.to('.loader__logo', {
+			duration: 0.3,
+			delay: 1.1,
+			autoAlpha: 0,
+			ease: 'power1.out',
+		})
+		.to(
+			'.loader',
+			{
+				duration: 0.4,
+				width: 0,
+				ease: 'power1.out',
+				// onComplete: () => animationEnter(next.container),
+			},
+			'-=0.2'
+		);
+}
+
 barba.init({
+	sync: true,
 	views: [
 		{
 			namespace: 'detail',
-			beforeEnter(data) {
+			beforeEnter() {
 				initImageSlide();
-				console.log(data);
-				console.log(barba.history.previous.url);
 			},
 		},
-	],
-	views: [
 		{
 			namespace: 'home',
 			beforeEnter() {
@@ -35,21 +91,14 @@ barba.init({
 		{
 			name: 'general-transition',
 			once({ next }) {
-				console.log('ONCE');
-				animationEnter(next.container);
+				loadingAnimation();
 			},
-			leave: ({ current }) => {
-				console.log('leaving');
-				animationLeave(current.container);
-			},
+			leave: ({ current }) => animationLeave(current.container),
 			enter({ next }) {
 				console.log('entering');
 				mobileMenuOff();
-				console.log('메뉴끄기');
 				animationEnter(next.container);
-				console.log('애니메이션 엔터');
 				document.querySelector('.menu-btn-container').classList.remove('open');
-				console.log('상단메뉴변경');
 			},
 		},
 	],

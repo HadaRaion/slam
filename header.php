@@ -8,7 +8,19 @@
   </head>
   <body <?php body_class(); ?>>
 	<div data-barba="wrapper">
-		<div class="loader"></div>
+		<div class="loader">
+			<div class="loader__logo">
+				<div class="loader__logo__top">
+					<img src=<?php echo get_theme_file_uri('/images/slam_s.svg'); ?>" >
+					<img src=<?php echo get_theme_file_uri('/images/slam_l.svg'); ?>" >
+					<img src=<?php echo get_theme_file_uri('/images/slam_a.svg'); ?>" >
+					<img src=<?php echo get_theme_file_uri('/images/slam_m.svg'); ?>" >
+				</div>
+				<div class="loader__logo__bottom">
+					<img src=<?php echo get_theme_file_uri('/images/slam_studio.svg'); ?>" >
+				</div>
+			</div>
+		</div>
 		<div class="transition"></div>
 		<div class="black-filter"></div>
 

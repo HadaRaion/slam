@@ -48,25 +48,6 @@
 	</div>
 
 	<div class="container-sm member">
-		<!-- <div class="row member__row">
-			<div class="col member__name">
-				<h4>윤현준 PD</h4>
-			</div>
-			<div class="col member__career">
-				<p>前 KBS PD</p>
-				<p class="padding-left">해피투게더, 승승장구, 뮤직뱅크</p>
-				<p>前 TBC PD, CP</p>
-				<p class="padding-left">신화방송, 크라임씬, 크라임씬2, 크라임씬3, 한끼줍쇼, 슈가맨, 슈가맨2, 슈가맨3, 효리네민박, 효리네민박2, 캠핑클럽 기획</p>
-				<p>現 스튜디오슬램 대표</p>
-				<p class="padding-left">싱어게인 기획</p>
-			</div>
-			<div class="col member__line"></div>
-			<div class="col member__img">
-				<div class="member__img__wrapper">
-					<img src="<?php echo get_theme_file_uri('/images/slam-member.jpg'); ?>" alt="" />
-				</div>
-			</div>
-		</div> -->
 		<div class="row member__row">
 			<div class="col member__name">
 				<h4>윤현준</h4>
@@ -82,7 +63,7 @@
 			<div class="col member__line"></div>
 			<div class="col member__img">
 				<div class="member__img__wrapper">
-					<img src="<?php echo get_theme_file_uri('/images/slam_yhj.jpg'); ?>" alt="" />
+					<img src="<?php echo get_theme_file_uri('/images/teams/slam_yhj.jpg'); ?>" alt="" />
 				</div>
 			</div>
 		</div>
@@ -101,7 +82,7 @@
 			<div class="col member__line"></div>
 			<div class="col member__img">
 				<div class="member__img__wrapper">
-					<img src="<?php echo get_theme_file_uri('/images/slam_mky.jpg'); ?>" alt="" />
+					<img src="<?php echo get_theme_file_uri('/images/teams/slam_mky.jpg'); ?>" alt="" />
 				</div>
 			</div>
 		</div>
@@ -119,7 +100,7 @@
 			<div class="col member__line"></div>
 			<div class="col member__img">
 				<div class="member__img__wrapper">
-					<img src="<?php echo get_theme_file_uri('/images/slam_khm.jpg'); ?>" alt="" />
+					<img src="<?php echo get_theme_file_uri('/images/teams/slam_khm.jpg'); ?>" alt="" />
 				</div>
 			</div>
 		</div>
@@ -139,7 +120,7 @@
 			<div class="col member__line"></div>
 			<div class="col member__img">
 				<div class="member__img__wrapper">
-					<img src="<?php echo get_theme_file_uri('/images/slam_pjy.jpg'); ?>" alt="" />
+					<img src="<?php echo get_theme_file_uri('/images/teams/slam_pjy.jpg'); ?>" alt="" />
 				</div>
 			</div>
 		</div>
@@ -157,7 +138,7 @@
 			<div class="col member__line"></div>
 			<div class="col member__img">
 				<div class="member__img__wrapper">
-					<img src="<?php echo get_theme_file_uri('/images/slam_psh.jpg'); ?>" alt="" />
+					<img src="<?php echo get_theme_file_uri('/images/teams/slam_psh.jpg'); ?>" alt="" />
 				</div>
 			</div>
 		</div>
@@ -175,7 +156,7 @@
 			<div class="col member__line"></div>
 			<div class="col member__img">
 				<div class="member__img__wrapper">
-					<img src="<?php echo get_theme_file_uri('/images/slam_hsw.jpg'); ?>" alt="" />
+					<img src="<?php echo get_theme_file_uri('/images/teams/slam_hsw.jpg'); ?>" alt="" />
 				</div>
 			</div>
 		</div>
@@ -193,7 +174,7 @@
 			<div class="col member__line"></div>
 			<div class="col member__img">
 				<div class="member__img__wrapper">
-					<img src="<?php echo get_theme_file_uri('/images/slam_kkl.jpg'); ?>" alt="" />
+					<img src="<?php echo get_theme_file_uri('/images/teams/slam_kkl.jpg'); ?>" alt="" />
 				</div>
 			</div>
 		</div>
@@ -211,7 +192,7 @@
 			<div class="col member__line"></div>
 			<div class="col member__img">
 				<div class="member__img__wrapper">
-					<img src="<?php echo get_theme_file_uri('/images/slam_ljy.jpg'); ?>" alt="" />
+					<img src="<?php echo get_theme_file_uri('/images/teams/slam_ljy.jpg'); ?>" alt="" />
 				</div>
 			</div>
 		</div>
@@ -233,7 +214,7 @@
 			<div class="col member__line"></div>
 			<div class="col member__img">
 				<div class="member__img__wrapper">
-					<img src="<?php echo get_theme_file_uri('/images/slam_lej.jpg'); ?>" alt="" />
+					<img src="<?php echo get_theme_file_uri('/images/teams/slam_lej.jpg'); ?>" alt="" />
 				</div>
 			</div>
 		</div>

@@ -5,7 +5,6 @@
 <main class="wrapper detail" data-barba="container" data-barba-namespace="detail">
 	<div class="container-fluid">
 		<div class="detail__video">
-			<!-- <iframe width="560" height="315" src="<?php echo the_field('slam_movie'); ?>?controls=0&autoplay=1&rel=0&showinfo=0&controls=0&autohide=1" frameborder="0" allowfullscreen></iframe> -->
 			<iframe src="<?php echo the_field('slam_movie'); ?>?controls=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
