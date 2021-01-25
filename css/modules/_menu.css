@@ -43,7 +43,7 @@
 		align-items: center;
 
 		& ul {
-			font-size: 4vw;
+			font-size: clamp(3rem, 4vw, 6rem);
 			font-weight: 700;
 			text-transform: capitalize;
 			text-align: center;

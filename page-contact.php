@@ -1,10 +1,18 @@
 <?php get_header(); ?>
 <main class="wrapper contact" data-barba="container" data-barba-namespace="contact">
 			<div class="page-header">
-				<h2>Contact</h2>
+				<h2>
+					<span class="letter">C</span>
+					<span class="letter">o</span>
+					<span class="letter">n</span>
+					<span class="letter">t</span>
+					<span class="letter">a</span>
+					<span class="letter">c</span>
+					<span class="letter">t</span>
+				</h2>
 			</div>
 
-			<div class="container-fluid justify-content-between">
+			<div class="container-fluid justify-content-between page-body">
 				<div class="row--contact">
 					<div class="col--contact col--contact-info">
 						<div class="contact__info">

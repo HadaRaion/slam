@@ -1,25 +1,4 @@
 .works {
-	/* AJAX */
-	.alm-btn-wrap {
-		margin-top: 50px;
-	}
-	.ajax-load-more-wrap.grey .alm-load-more-btn {
-		border: 2px solid #fff;
-		background-color: $slamDark;
-		border-radius: 0;
-	}
-
-	.alm-listing .alm-reveal {
-		width: 100%;
-		display: flex;
-		flex-wrap: wrap;
-
-		&:after {
-			content: '';
-			flex: auto;
-		}
-	}
-
 	ul {
 		display: flex;
 		flex-wrap: wrap;
@@ -92,5 +71,26 @@
 
 	&__title {
 		margin-top: 14px;
+	}
+
+	&__pagination {
+		display: flex;
+		justify-content: center;
+		margin-top: 80px;
+		font-size: 1.6rem;
+
+		@mixin atSmall {
+			margin-top: 40px;
+			font-size: 1.2rem;
+		}
+		span,
+		a {
+			padding: 10px;
+		}
+
+		span.current {
+			color: $slamMid;
+			font-weight: 700;
+		}
 	}
 }

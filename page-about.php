@@ -2,8 +2,18 @@
 
 <main class="wrapper about" data-barba="container" data-barba-namespace="about">
 	<div class="page-header">
-		<h2>About us</h2>
+		<h2>
+			<span class="letter">A</span>
+			<span class="letter">b</span>
+			<span class="letter">o</span>
+			<span class="letter">u</span>
+			<span class="letter">t</span>
+			<span class="space"></span>
+			<span class="letter">u</span>
+			<span class="letter">s</span>
+		</h2>
 	</div>
+	<div class="page-body">
 	<div class="container-sm justify-content-between">
 		<div class="row">
 			<div class="col about__title">
@@ -40,6 +50,18 @@
 				<p>취향의 다양성을 존중한 색다른 콘텐츠를 제작하는 크리에이터 그룹,</p>
 				<p>다양한 콘텐츠 백그라운드를 지닌 이들이 모여 새로움을 만들어갑니다.</p>
 			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="mouse-scroll">
+			<span>Scroll</span>
+
+			<svg class="mouse" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 130" preserveAspectRatio="xMidYMid meet">
+				<g fill="none" fill-rule="evenodd">
+					<rect width="70" height="110" x="1.5" y="1.5" stroke="#FFF" stroke-width="3" rx="36" />
+					<circle class="scroll" cx="36.5" cy="31.5" r="5.6" fill="#FFF" />
+				</g>
+			</svg>
 		</div>
 	</div>
 
@@ -219,6 +241,8 @@
 			</div>
 		</div>
 	</div>
+	</div>
+	
 </main>
 
 <?php get_footer(); ?>

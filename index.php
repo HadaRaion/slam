@@ -1,10 +1,16 @@
 <?php get_header(); ?>
 <main class="wrapper works" data-barba="container" data-barba-namespace="works">
 	<div class="page-header">
-		<h2>Works</h2>
+		<h2>
+			<span class="letter">W</span>
+			<span class="letter">o</span>
+			<span class="letter">r</span>
+			<span class="letter">k</span>
+			<span class="letter">s</span>
+		</h2>
 	</div>
 
-	<div class="container-fluid works__list">
+	<div class="container-fluid works__list page-body">
 		<ul class="">
 				<?php
 					while(have_posts()) {
@@ -18,10 +24,11 @@
 						<?php } ?>
 			</ul>
 
+		<div class="works__pagination">
+			<?php echo paginate_links();?>
+		</div>
 
-		 <!-- <?php echo paginate_links();?> -->
-		<!-- <?php echo do_shortcode('[ajax_load_more posts_per_page="6" ]'); ?>
-		<?php echo do_shortcode('[ajax_load_more id="slam-ajax" loading_style="grey" container_type="ul" post_type="post" posts_per_page="6" button_loading_label="Loading Works"]'); ?> -->
+
 	</div>
 </main>
 
