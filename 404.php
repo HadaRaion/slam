@@ -10,27 +10,24 @@
 get_header();
 ?>
 
-<main id="site-content" role="main">
+<main class="wrapper" data-barba="container" data-barba-namespace="404">
+	<div class="page-header">
+		<h2>		
+			<span class="letter">4</span>
+			<span class="letter">0</span>
+			<span class="letter">4</span>
 
-	<div class="section-inner thin error404-content">
+		</h2>
+	</div>
+	<div class="page-body">
+		<div class="container-fluid text-center .align-items-center">
+				<h3>페이지를 찾을 수 없습니다. </h3>
+				<h4> <a href="/">홈으로 돌아가기</a> </h4>
 
-		<h1 class="entry-title"><?php _e( 'Page Not Found', 'twentytwenty' ); ?></h1>
+		</div>	
+	</div>
 
-		<div class="intro-text"><p><?php _e( 'The page you were looking for could not be found. It might have been removed, renamed, or did not exist in the first place.', 'twentytwenty' ); ?></p></div>
-
-		<?php
-		get_search_form(
-			array(
-				'label' => __( '404 not found', 'twentytwenty' ),
-			)
-		);
-		?>
-
-	</div><!-- .section-inner -->
-
-</main><!-- #site-content -->
-
-<?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
+</main>
 
 <?php
 get_footer();

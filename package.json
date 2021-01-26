@@ -17,7 +17,8 @@
 		"@barba/prefetch": "^2.1.10",
 		"@splidejs/splide": "^2.4.21",
 		"gsap": "^3.5.1",
-		"normalize.css": "^8.0.1"
+		"normalize.css": "^8.0.1",
+		"scroll-out": "^2.2.12"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.10.3",

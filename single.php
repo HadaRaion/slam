@@ -1,7 +1,4 @@
-<?php
-  
-  get_header();
-     ?>
+<?php get_header(); ?>
 <main class="wrapper detail" data-barba="container" data-barba-namespace="detail">
 	<div class="page-body">
 		<div class="container-fluid">
@@ -13,7 +10,6 @@
 		<div class="container-fluid">
 			<div class="mouse-scroll">
 				<span>Scroll</span>
-
 				<svg class="mouse" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 130" preserveAspectRatio="xMidYMid meet">
 					<g fill="none" fill-rule="evenodd">
 						<rect width="70" height="110" x="1.5" y="1.5" stroke="#FFF" stroke-width="3" rx="36" />
@@ -72,7 +68,6 @@
 					<p><?php the_field('slam_plot'); ?></p>
 				</div>
 			</div>
-
 
 			<div class="row row--detail row--for-detail-link">
 				<div class="col col--detail-sub-title">
@@ -156,7 +151,4 @@
 	</div>
 </main>
 
-
 <?php get_footer(); ?>
-
-

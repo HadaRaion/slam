@@ -1,17 +1,13 @@
 import barba from '@barba/core';
 import gsap from 'gsap';
-import initImageSlide from './initImageSlide';
 import videoSource from './mainVideo';
-import { animationLeave, animationEnter, mobileMenuOff, loadingAnimation } from '../animations';
+import ScrollOut from 'scroll-out';
+import initImageSlide from './initImageSlide';
+import { animationLeave, animationEnter, mobileMenuOff } from '../animations';
 
-barba.hooks.enter(() => {
-	window.scrollTo(0, 0);
-});
-
-barba.hooks.after(() => {
-	ga('set', 'page', window.location.pathname);
-	ga('send', 'pageview');
-});
+// const calculateLeftPosition = windowHeight => {
+// 	return parseFloat(windowHeight * Math.tan((27 * Math.PI) / 180));
+// };
 
 function delay(n) {
 	n = n || 2000;
@@ -22,10 +18,48 @@ function delay(n) {
 	});
 }
 
-function pageTransition() {
+function loadOnce(next) {
+	document.querySelector('main').classList.add('loading');
 	var tl = gsap.timeline();
-	tl.to('main', { autoAlpha: 1 });
+
+	tl.to('.loader__logo__bottom', {
+		duration: 1.5,
+		opacity: 1,
+		ease: 'power4.in',
+	})
+		.from('.loader__logo__top > img', {
+			duration: 0.5,
+			yPercent: 100,
+			stagger: 0.1,
+			delay: 0.2,
+		})
+		.to('.loader__logo', {
+			duration: 0.3,
+			delay: 1.1,
+			autoAlpha: 0,
+			ease: 'power1.out',
+			onComplete: () => document.querySelector('main').classList.remove('loading'),
+		})
+		.to(
+			'.loader',
+			{
+				duration: 0.4,
+				width: 0,
+				ease: 'power1.out',
+				onStart: () => animationEnter(next.container),
+			},
+			'-=0.2'
+		);
 }
+
+barba.hooks.enter(() => {
+	window.scrollTo(0, 0);
+});
+
+barba.hooks.after(() => {
+	ga('set', 'page', window.location.pathname);
+	ga('send', 'pageview');
+});
 
 barba.init({
 	sync: true,
@@ -36,7 +70,7 @@ barba.init({
 				initImageSlide();
 			},
 			once() {
-				loadingAnimation();
+				loadOnce();
 			},
 			enter() {
 				gsap.to('.page-body', { autoAlpha: 1, duration: 0.5 });
@@ -47,11 +81,20 @@ barba.init({
 			beforeEnter() {
 				videoSource();
 			},
-			once() {
-				loadingAnimation();
+			once({ next }) {
+				loadOnce(next);
 			},
 			enter() {
 				gsap.to('.page-body', { autoAlpha: 1, duration: 0.5 });
+			},
+		},
+		{
+			namespace: 'about',
+			beforeEnter() {
+				ScrollOut();
+			},
+			once({ next }) {
+				loadOnce(next);
 			},
 		},
 	],
@@ -59,37 +102,7 @@ barba.init({
 		{
 			name: 'general-transition',
 			async once({ next }) {
-				document.querySelector('main').classList.add('loading');
-				var tl = gsap.timeline();
-
-				tl.to('.loader__logo__bottom', {
-					duration: 1.5,
-					opacity: 1,
-					ease: 'power4.in',
-				})
-					.from('.loader__logo__top > img', {
-						duration: 0.5,
-						yPercent: 100,
-						stagger: 0.1,
-						delay: 0.2,
-					})
-					.to('.loader__logo', {
-						duration: 0.3,
-						delay: 1.1,
-						autoAlpha: 0,
-						ease: 'power1.out',
-						onComplete: () => document.querySelector('main').classList.remove('loading'),
-					})
-					.to(
-						'.loader',
-						{
-							duration: 0.4,
-							width: 0,
-							ease: 'power1.out',
-							onStart: () => animationEnter(next.container),
-						},
-						'-=0.2'
-					);
+				loadOnce(next);
 			},
 
 			async leave({ current }) {
@@ -98,8 +111,8 @@ barba.init({
 				await delay(1000);
 				done();
 			},
+
 			enter({ next }) {
-				console.log('entering');
 				mobileMenuOff();
 				animationEnter(next.container);
 				document.querySelector('.menu-btn-container').classList.remove('open');

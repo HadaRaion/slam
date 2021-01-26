@@ -66,177 +66,177 @@
 	</div>
 
 	<div class="container-fluid">
-		<div class="divide-logo"><img src="<?php echo get_theme_file_uri('/images/logo_horizontal.svg'); ?>" alt="가로버전 로고" /></div>
+		<div class="divide-logo"><img data-scroll src="<?php echo get_theme_file_uri('/images/logo_horizontal.svg'); ?>" alt="가로버전 로고" /></div>
 	</div>
 
 	<div class="container-sm member">
 		<div class="row member__row">
 			<div class="col member__name">
-				<h4>윤현준</h4>
+				<h4 data-scroll>윤현준</h4>
 			</div>
 			<div class="col member__career">
-				<p>1997 KBS 입사</p>
-				<p class="padding-left">꿈의 피라미드, 해피투게더, 해피투게더 프렌즈, 뮤직뱅크, 상상플러스, 김승우의 승승장구 기획, 연출</p>
-				<p>2011 JTBC 이적</p>
-				<p class="padding-left">소녀시대와 위험한소년들, 신화방송, 크라임씬 시리즈, 슈가맨 시리즈 기획, 연출, 효리네 민박 시리즈, 캠핑클럽 기획</p>
-				<p>2020 스튜디오 슬램 설립</p>
-				<p class="padding-left">싱어게인 무명가수전 기획</p>
+				<p data-scroll>1997 KBS 입사</p>
+				<p data-scroll class="padding-left">꿈의 피라미드, 해피투게더, 해피투게더 프렌즈, 뮤직뱅크, 상상플러스, 김승우의 승승장구 기획, 연출</p>
+				<p data-scroll>2011 JTBC 이적</p>
+				<p data-scroll class="padding-left">소녀시대와 위험한소년들, 신화방송, 크라임씬 시리즈, 슈가맨 시리즈 기획, 연출, 효리네 민박 시리즈, 캠핑클럽 기획</p>
+				<p data-scroll>2020 스튜디오 슬램 설립</p>
+				<p data-scroll class="padding-left">싱어게인 무명가수전 기획</p>
 			</div>
 			<div class="col member__line"></div>
 			<div class="col member__img">
 				<div class="member__img__wrapper">
-					<img src="<?php echo get_theme_file_uri('/images/teams/slam_yhj.jpg'); ?>" alt="" />
+					<img data-scroll src="<?php echo get_theme_file_uri('/images/teams/slam_yhj.jpg'); ?>" alt="" />
 				</div>
 			</div>
 		</div>
 
 		<div class="row member__row">
 			<div class="col member__name">
-				<h4>마건영</h4>
+				<h4 data-scroll>마건영</h4>
 			</div>
 			<div class="col member__career">
-				<p>2008 MBC 입사</p>
-				<p class="padding-left">우리 결혼했어요, 놀러와, 일밤 – 뜨거운형제들 외 다수, 세바퀴, 무한도전</p>
-				<p>2014 JTBC 이적</p>
-				<p class="padding-left">크라임씬, 속사정쌀롱, 마리와 나, 걸스피릿, 효리네 민박, 효리네 민박 2, 캠핑클럽 연출</p>
-				<p>2020 스튜디오 슬램 설립</p>
+				<p data-scroll>2008 MBC 입사</p>
+				<p data-scroll class="padding-left">우리 결혼했어요, 놀러와, 일밤 – 뜨거운형제들 외 다수, 세바퀴, 무한도전</p>
+				<p data-scroll>2014 JTBC 이적</p>
+				<p data-scroll class="padding-left">크라임씬, 속사정쌀롱, 마리와 나, 걸스피릿, 효리네 민박, 효리네 민박 2, 캠핑클럽 연출</p>
+				<p data-scroll>2020 스튜디오 슬램 설립</p>
 			</div>
 			<div class="col member__line"></div>
 			<div class="col member__img">
 				<div class="member__img__wrapper">
-					<img src="<?php echo get_theme_file_uri('/images/teams/slam_mky.jpg'); ?>" alt="" />
+					<img data-scroll src="<?php echo get_theme_file_uri('/images/teams/slam_mky.jpg'); ?>" alt="" />
 				</div>
 			</div>
 		</div>
 
 		<div class="row member__row">
 			<div class="col member__name">
-				<h4>김학민</h4>
+				<h4  data-scroll>김학민</h4>
 			</div>
 			<div class="col member__career">
-				<p>2011 JTBC 입사</p>
-				<p class="padding-left">썰전, 히든싱어, 내 친구의 집은 어디인가, 팬텀싱어, 효리네 민박, 인간지능, 스테이지K , 슈가맨3</p>
-				<p>2020 스튜디오 슬램 설립</p>
-				<p class="padding-left">싱어게인 연출</p>
+				<p data-scroll>2011 JTBC 입사</p>
+				<p data-scroll class="padding-left">썰전, 히든싱어, 내 친구의 집은 어디인가, 팬텀싱어, 효리네 민박, 인간지능, 스테이지K , 슈가맨3</p>
+				<p data-scroll>2020 스튜디오 슬램 설립</p>
+				<p data-scroll class="padding-left">싱어게인 연출</p>
 			</div>
 			<div class="col member__line"></div>
 			<div class="col member__img">
 				<div class="member__img__wrapper">
-					<img src="<?php echo get_theme_file_uri('/images/teams/slam_khm.jpg'); ?>" alt="" />
+					<img data-scroll src="<?php echo get_theme_file_uri('/images/teams/slam_khm.jpg'); ?>" alt="" />
 				</div>
 			</div>
 		</div>
 
 		<div class="row member__row">
 			<div class="col member__name">
-				<h4>박지예</h4>
+				<h4 data-scroll>박지예</h4>
 			</div>
 			<div class="col member__career">
-				<p>前 MBC PD</p>
-				<p class="padding-left">일밤, 볼수록 애교만점, 위대한 탄생 1, 2, 3, 무한도전</p>
-				<p>2014 JTBC 입사</p>
-				<p class="padding-left">비정상회담, 슈가맨, 말하는대로, 크라임씬3, 썰전, 전체관람가, 효리네 민박2, 캠핑클럽, 슈가맨3 </p>
-				<p>2020 스튜디오 슬램 설립</p>
-				<p class="padding-left">싱어게인 연출</p>
+				<p data-scroll>前 MBC PD</p>
+				<p data-scroll class="padding-left">일밤, 볼수록 애교만점, 위대한 탄생 1, 2, 3, 무한도전</p>
+				<p data-scroll>2014 JTBC 입사</p>
+				<p data-scroll class="padding-left">비정상회담, 슈가맨, 말하는대로, 크라임씬3, 썰전, 전체관람가, 효리네 민박2, 캠핑클럽, 슈가맨3 </p>
+				<p data-scroll>2020 스튜디오 슬램 설립</p>
+				<p data-scroll class="padding-left">싱어게인 연출</p>
 			</div>
 			<div class="col member__line"></div>
 			<div class="col member__img">
 				<div class="member__img__wrapper">
-					<img src="<?php echo get_theme_file_uri('/images/teams/slam_pjy.jpg'); ?>" alt="" />
+					<img data-scroll src="<?php echo get_theme_file_uri('/images/teams/slam_pjy.jpg'); ?>" alt="" />
 				</div>
 			</div>
 		</div>
 
 		<div class="row member__row">
 			<div class="col member__name">
-				<h4>박성환</h4>
+				<h4 data-scroll>박성환</h4>
 			</div>
 			<div class="col member__career">
-				<p>2017 JTBC 입사</p>
-				<p class="padding-left">효리네 민박, 효리네 민박2 , 냉장고를 부탁해, 캠핑클럽, 슈가맨3, 팬텀싱어3, </p>
-				<p>2020 스튜디오 슬램 이적</p>
-				<p class="padding-left">싱어게인</p>
+				<p data-scroll>2017 JTBC 입사</p>
+				<p data-scroll class="padding-left">효리네 민박, 효리네 민박2 , 냉장고를 부탁해, 캠핑클럽, 슈가맨3, 팬텀싱어3, </p>
+				<p data-scroll>2020 스튜디오 슬램 이적</p>
+				<p data-scroll class="padding-left">싱어게인</p>
 			</div>
 			<div class="col member__line"></div>
 			<div class="col member__img">
 				<div class="member__img__wrapper">
-					<img src="<?php echo get_theme_file_uri('/images/teams/slam_psh.jpg'); ?>" alt="" />
+					<img data-scroll src="<?php echo get_theme_file_uri('/images/teams/slam_psh.jpg'); ?>" alt="" />
 				</div>
 			</div>
 		</div>
 
 		<div class="row member__row">
 			<div class="col member__name">
-				<h4>황슬우</h4>
+				<h4 data-scroll>황슬우</h4>
 			</div>
 			<div class="col member__career">
-				<p>2018 JTBC 입사</p>
-				<p class="padding-left">냉장고를 부탁해, 날 보러와요, 스테이지K, 캠핑클럽, 슈가맨3, 1호가 될 순 없어</p>
-				<p>2020 스튜디오 슬램 이적</p>
-				<p class="padding-left">싱어게인 연출</p>
+				<p data-scroll>2018 JTBC 입사</p>
+				<p data-scroll class="padding-left">냉장고를 부탁해, 날 보러와요, 스테이지K, 캠핑클럽, 슈가맨3, 1호가 될 순 없어</p>
+				<p data-scroll>2020 스튜디오 슬램 이적</p>
+				<p data-scroll class="padding-left">싱어게인 연출</p>
 			</div>
 			<div class="col member__line"></div>
 			<div class="col member__img">
 				<div class="member__img__wrapper">
-					<img src="<?php echo get_theme_file_uri('/images/teams/slam_hsw.jpg'); ?>" alt="" />
+					<img data-scroll src="<?php echo get_theme_file_uri('/images/teams/slam_hsw.jpg'); ?>" alt="" />
 				</div>
 			</div>
 		</div>
 
 		<div class="row member__row">
 			<div class="col member__name">
-				<h4>김규리</h4>
+				<h4 data-scroll>김규리</h4>
 			</div>
 			<div class="col member__career">
-				<p>2019 JTBC 입사</p>
-				<p class="padding-left">스테이지K, 어서 말을 해, 아는형님</p>
-				<p>2020 스튜디오 슬램 이적</p>
-				<p class="padding-left">싱어게인</p>
+				<p data-scroll>2019 JTBC 입사</p>
+				<p data-scroll class="padding-left">스테이지K, 어서 말을 해, 아는형님</p>
+				<p data-scroll>2020 스튜디오 슬램 이적</p>
+				<p data-scroll class="padding-left">싱어게인</p>
 			</div>
 			<div class="col member__line"></div>
 			<div class="col member__img">
 				<div class="member__img__wrapper">
-					<img src="<?php echo get_theme_file_uri('/images/teams/slam_kkl.jpg'); ?>" alt="" />
+					<img data-scroll src="<?php echo get_theme_file_uri('/images/teams/slam_kkl.jpg'); ?>" alt="" />
 				</div>
 			</div>
 		</div>
 
 		<div class="row member__row">
 			<div class="col member__name">
-				<h4>이주연</h4>
+				<h4 data-scroll>이주연</h4>
 			</div>
 			<div class="col member__career">
-				<p>前 JTBC PD</p>
-				<p class="padding-left">크라임씬, 비정상회담1, 썰전, 걸스피릿, 한끼줍쇼, 방구석1열</p>
-				<p>2020 스튜디오 슬램 이적</p>
-				<p class="padding-left">싱어게인</p>
+				<p data-scroll>前 JTBC PD</p>
+				<p data-scroll class="padding-left">크라임씬, 비정상회담1, 썰전, 걸스피릿, 한끼줍쇼, 방구석1열</p>
+				<p data-scroll>2020 스튜디오 슬램 이적</p>
+				<p data-scroll class="padding-left">싱어게인</p>
 			</div>
 			<div class="col member__line"></div>
 			<div class="col member__img">
 				<div class="member__img__wrapper">
-					<img src="<?php echo get_theme_file_uri('/images/teams/slam_ljy.jpg'); ?>" alt="" />
+					<img data-scroll src="<?php echo get_theme_file_uri('/images/teams/slam_ljy.jpg'); ?>" alt="" />
 				</div>
 			</div>
 		</div>
 
 		<div class="row member__row">
 			<div class="col member__name">
-				<h4>이은진</h4>
+				<h4 data-scroll>이은진</h4>
 			</div>
 			<div class="col member__career">
-				<p>前 MBC PD </p>
-				<p class="padding-left">무한도전</p>
-				<p>前 JTBC PD</p>
-				<p class="padding-left">비긴어게인1, 아는형님</p>
-				<p>2019 JTBC 입사</p>
-				<p class="padding-left">괴팍한 5형제, 팬텀싱어3, 갬성캠핑</p>
-				<p>2020 스튜디오 슬램 설립</p>
-				<p class="padding-left">싱어게인 연출</p>
+				<p data-scroll>前 MBC PD </p>
+				<p data-scroll class="padding-left">무한도전</p>
+				<p data-scroll>前 JTBC PD</p>
+				<p data-scroll class="padding-left">비긴어게인1, 아는형님</p>
+				<p data-scroll>2019 JTBC 입사</p>
+				<p data-scroll class="padding-left">괴팍한 5형제, 팬텀싱어3, 갬성캠핑</p>
+				<p data-scroll>2020 스튜디오 슬램 설립</p>
+				<p data-scroll class="padding-left">싱어게인 연출</p>
 			</div>
 			<div class="col member__line"></div>
 			<div class="col member__img">
 				<div class="member__img__wrapper">
-					<img src="<?php echo get_theme_file_uri('/images/teams/slam_lej.jpg'); ?>" alt="" />
+					<img data-scroll src="<?php echo get_theme_file_uri('/images/teams/slam_lej.jpg'); ?>" alt="" />
 				</div>
 			</div>
 		</div>

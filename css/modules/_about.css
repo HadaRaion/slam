@@ -106,11 +106,24 @@
 			}
 		}
 	}
-}
 
-.divide-logo {
-	margin-top: 70px;
-	margin-bottom: 200px;
-	display: flex;
-	justify-content: flex-end;
+	.divide-logo {
+		margin-top: 70px;
+		margin-bottom: 200px;
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	[data-scroll] {
+		transition: all 2s;
+	}
+
+	[data-scroll='in'] {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	[data-scroll='out'] {
+		opacity: 0;
+		transform: translateY(5px);
+	}
 }

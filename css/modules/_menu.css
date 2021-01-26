@@ -23,7 +23,6 @@
 			opacity: 0.9;
 			transition: all 0.5s var(--easing);
 			transform: rotate(27deg) translateX(-150%);
-			/* transform: rotate(27deg) translateX(0%); */
 		}
 
 		&.active::before {

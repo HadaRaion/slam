@@ -12,7 +12,6 @@
 
 	&.active {
 		background: linear-gradient($slamDark 100%, transparent);
-		/* border-bottom: 1px solid #fff; */
 	}
 }
 

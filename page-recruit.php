@@ -17,10 +17,6 @@
 				<?php echo do_shortcode('[kboard id=2]'); ?>
 			</div>	
 		</div>
-
-
 	</main>
 
 <?php get_footer(); ?>
-
-

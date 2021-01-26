@@ -44,7 +44,7 @@
 				border-radius: 50%;
 				transition: margin-left 0.2s ease;
 				margin-left: 10px;
-				background: #fff;
+				background: url('/wp-content/uploads/2021/01/icon_link.svg') no-repeat center;
 			}
 
 			&:hover {
@@ -84,7 +84,7 @@
 				height: 24px;
 				transition: all 0.2s ease;
 				margin-bottom: 10px;
-				background: #fff;
+				background: url('/wp-content/uploads/2021/01/icon_go_back.svg') no-repeat center;
 			}
 
 			&:hover {
@@ -128,6 +128,7 @@
 		}
 	}
 }
+
 .row--detail {
 	display: flex;
 	margin-left: -20px;
