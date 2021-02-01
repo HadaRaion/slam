@@ -173,7 +173,7 @@
 				<p data-scroll>2018 JTBC 입사</p>
 				<p data-scroll class="padding-left">냉장고를 부탁해, 날 보러와요, 스테이지K, 캠핑클럽, 슈가맨3, 1호가 될 순 없어</p>
 				<p data-scroll>2020 스튜디오 슬램 이적</p>
-				<p data-scroll class="padding-left">싱어게인 연출</p>
+				<p data-scroll class="padding-left">싱어게인</p>
 			</div>
 			<div class="col member__line"></div>
 			<div class="col member__img">
@@ -230,8 +230,8 @@
 				<p data-scroll class="padding-left">비긴어게인1, 아는형님</p>
 				<p data-scroll>2019 JTBC 입사</p>
 				<p data-scroll class="padding-left">괴팍한 5형제, 팬텀싱어3, 갬성캠핑</p>
-				<p data-scroll>2020 스튜디오 슬램 설립</p>
-				<p data-scroll class="padding-left">싱어게인 연출</p>
+				<p data-scroll>2020 스튜디오 슬램 이적</p>
+				<p data-scroll class="padding-left">싱어게인</p>
 			</div>
 			<div class="col member__line"></div>
 			<div class="col member__img">

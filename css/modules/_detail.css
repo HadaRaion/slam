@@ -85,6 +85,10 @@
 				transition: all 0.2s ease;
 				margin-bottom: 10px;
 				background: url('/wp-content/uploads/2021/01/icon_go_back.svg') no-repeat center;
+
+				@mixin atSmall {
+					margin: 0 auto 10px;
+				}
 			}
 
 			&:hover {
@@ -126,6 +130,22 @@
 			background: #fff;
 			opacity: 1;
 		}
+	}
+
+	&__slide__wrapper {
+		padding-top: calc(576 / 864 * 100%);
+		position: relative;
+	}
+	&__slide__img {
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: contain;
 	}
 }
 

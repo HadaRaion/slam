@@ -92,56 +92,48 @@
 				<div id="image-slider" class="splide detail__slider">
 					<div class="splide__track">
 						<ul class="splide__list">
-						<?php 
-							$image = get_field('slam_img_1');
-							if( !empty( $image ) ): ?>
-								<li class="splide__slide">
-									<div class="splide__slide__wrapper">
-										<div class="splide__slide__img" style="background-image: url(<?php echo esc_url($image['url']); ?>);"></div>
-									<div>
-								</li>	
-						<?php endif;
-							$image = get_field('slam_img_2');
-							if( !empty( $image ) ): ?>
-								<li class="splide__slide">
-									<div class="splide__slide__wrapper">
-										<div class="splide__slide__img" style="background-image: url(<?php echo esc_url($image['url']); ?>);"></div>
-									<div>
-								</li>		
-						<?php endif;
-							$image = get_field('slam_img_3');
-							if( !empty( $image ) ): ?>
-								<li class="splide__slide">
-									<div class="splide__slide__wrapper">
-										<div class="splide__slide__img" style="background-image: url(<?php echo esc_url($image['url']); ?>);"></div>
-									<div>
-								</li>										
-						<?php endif;
-							$image = get_field('slam_img_4');
-							if( !empty( $image ) ): ?>
-								<li class="splide__slide">
-									<div class="splide__slide__wrapper">
-										<div class="splide__slide__img" style="background-image: url(<?php echo esc_url($image['url']); ?>);"></div>
-									<div>
-								</li>	
-						<?php endif;
-							$image = get_field('slam_img_5');
-							if( !empty( $image ) ): ?>
-								<li class="splide__slide">
-									<div class="splide__slide__wrapper">
-										<div class="splide__slide__img" style="background-image: url(<?php echo esc_url($image['url']); ?>);"></div>
-									<div>
-								</li>									
+							<?php 
+								$image = get_field('slam_img_1');
+								if( !empty( $image ) ): ?>
+									<li class="splide__slide">
+										<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+									</li>								
 							<?php endif;
-							$image = get_field('slam_img_6');
-							if( !empty( $image ) ): ?>	
-								<li class="splide__slide">
-									<div class="splide__slide__wrapper">
-										<div class="splide__slide__img" style="background-image: url(<?php echo esc_url($image['url']); ?>);"></div>
-									<div>
-								</li>		
-						<?php endif; ?>
 
+								$image2 = get_field('slam_img_2');
+								if( !empty( $image2 ) ): ?>
+									<li class="splide__slide">
+										<img src="<?php echo esc_url($image2['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+									</li>								
+							<?php endif;
+
+							$image3 = get_field('slam_img_3');
+							if( !empty( $image3 ) ): ?>
+								<li class="splide__slide">
+									<img src="<?php echo esc_url($image3['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+								</li>								
+							<?php endif; 	
+									
+							$image4 = get_field('slam_img_4');
+								if( !empty( $image4 ) ): ?>
+									<li class="splide__slide">
+										<img src="<?php echo esc_url($image4['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+									</li>								
+							<?php endif; 
+
+							$image5 = get_field('slam_img_5');
+								if( !empty( $image5 ) ): ?>
+									<li class="splide__slide">
+										<img src="<?php echo esc_url($image5['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+									</li>								
+							<?php endif;
+
+							$image6 = get_field('slam_img_6');
+								if( !empty( $image6 ) ): ?>
+									<li class="splide__slide">
+										<img src="<?php echo esc_url($image6['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+									</li>								
+							<?php endif; ?>
 
 						</ul>
 					</div>

@@ -10,14 +10,15 @@
 		</h2>
 	</div>
 
-	<div class="container-fluid works__list page-body">
+	<?php //<div class="container-fluid works__list page-body"> 추후 교체, 썸네일도 교체 21 line slam-works ?>
+	<div class="container-sm works__list page-body">
 		<ul class="">
 				<?php
 					while(have_posts()) {
 						the_post(); ?>
 						<li class="works__list__item">
 							<a class="works__image" href="<?php the_permalink(); ?>">
-								<img src="<?php the_post_thumbnail_url('slam-works') ?>" alt="썸네일" />
+								<img src="<?php the_post_thumbnail_url('slam-works-retina') ?>" alt="썸네일" />
 							</a>
 							<h4 class="works__title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 						</li>

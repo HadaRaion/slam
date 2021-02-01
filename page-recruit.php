@@ -13,7 +13,7 @@
 			</h2>
 		</div>
 		<div class="page-body">
-			<div class="container-fluid">
+			<div class="container-sm">
 				<?php echo do_shortcode('[kboard id=2]'); ?>
 			</div>	
 		</div>

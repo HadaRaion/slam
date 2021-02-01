@@ -12,19 +12,20 @@
 	}
 
 	li {
-		width: 33.3333%;
-		flex: 0 0 calc(33.3333% - 20px);
+		width: 100%;
+		/* width: 33.3333%;
+		flex: 0 0 calc(33.3333% - 20px); */
 		margin-left: 10px;
 		margin-right: 10px;
 		margin-bottom: 50px;
 
-		@mixin atMedium {
+		/* @mixin atMedium {
 			flex: 0 0 calc(50% - 20px);
 		}
 
 		@mixin atSmall {
 			flex: 0 0 calc(100% - 20px);
-		}
+		} */
 	}
 
 	&__image {

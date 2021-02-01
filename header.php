@@ -31,14 +31,14 @@
 						<a class="logo" href="<?php echo site_url() ?>"><img src=<?php echo get_theme_file_uri('/images/logo_white.svg'); ?>" alt="사이트로고" /></a>
 					</div>
 					<div class="col">
-						<ul class="social">
+						<!-- <ul class="social">
 							<li>
 								<a class="social__icon fab fa-instagram" href="#" target="_blank"></a>
 							</li>
 							<li>
 								<a class="social__icon fab fa-youtube" href="<?php echo site_url('/news') ?>"></a>
 							</li>
-						</ul>
+						</ul> -->
 					</div>
 				</div>
 			</div>

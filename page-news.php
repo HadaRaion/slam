@@ -10,7 +10,7 @@
 			</h2>
 		</div>
 		<div class="page-body">
-			<div class="container-fluid works__list">
+			<div class="container-sm works__list">
 				<?php echo do_shortcode('[kboard id=1]'); ?>
 			</div>	
 		</div>
