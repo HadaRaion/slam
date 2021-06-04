@@ -3,7 +3,7 @@ const videoSource = () => {
 	if (window.matchMedia('(max-width: 700px)').matches) {
 		mainVideo.src = '';
 	} else {
-		mainVideo.src = 'http://studioslam.net/wp-content/themes/studio-slam-theme/slam_home.mp4';
+		mainVideo.src = 'http://studioslam.net/wp-content/themes/slam/slam_home.mp4';
 		mainVideo.autoplay = true;
 	}
 
