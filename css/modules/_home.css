@@ -54,7 +54,8 @@
 		}
 
 		@mixin atSmall {
-			bottom: 130px;
+			height: 120px;
+			bottom: 150px;
 		}
 
 		&::after {
@@ -77,6 +78,10 @@
 			opacity: 1;
 			padding: 0 55px 0 40px;
 			line-height: 2;
+
+			@mixin atSmall {
+				font-size: 1.6rem;
+			}
 		}
 	}
 }

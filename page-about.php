@@ -34,8 +34,7 @@
 				<div class="line"></div>
 			</div>
 			<div class="col about__text">
-				<p>'Contents is everything'</p>
-				<p>채널사업자를 포함한 모바일, OTT, 인터넷 등의 다양한 플랫폼에 최적화 된 오리지널 콘텐츠 제작을 통해</p>
+				<p>채널사업자를 포함한 모바일, OTT, 인터넷 등 다양한 플랫폼에 최적화 된 오리지널 콘텐츠 제작을 통해</p>
 				<p>미디어 시장의 선두 주자를 향해 나아갑니다.</p>
 			</div>
 		</div>
@@ -47,7 +46,7 @@
 				<div class="line"></div>
 			</div>
 			<div class="col about__text">
-				<p>취향의 다양성을 존중한 색다른 콘텐츠를 제작하는 크리에이터 그룹,</p>
+				<p>취향의 다양성을 존중한 색다른 콘텐츠를 제작하는 크리에이터 그룹.</p>
 				<p>다양한 콘텐츠 백그라운드를 지닌 이들이 모여 새로움을 만들어갑니다.</p>
 			</div>
 		</div>
@@ -78,7 +77,7 @@
 				<p data-scroll>1997 KBS 입사</p>
 				<p data-scroll class="padding-left">꿈의 피라미드, 해피투게더, 해피투게더 프렌즈, 뮤직뱅크, 상상플러스, 김승우의 승승장구 기획, 연출</p>
 				<p data-scroll>2011 JTBC 이적</p>
-				<p data-scroll class="padding-left">소녀시대와 위험한소년들, 신화방송, 크라임씬 시리즈, 슈가맨 시리즈 기획, 연출, 효리네 민박 시리즈, 캠핑클럽 기획</p>
+				<p data-scroll class="padding-left">소녀시대와 위험한소년들, 신화방송, 크라임씬 시리즈, 한끼줍쇼, 슈가맨 시리즈 기획, 연출, 효리네 민박 시리즈, 캠핑클럽 기획</p>
 				<p data-scroll>2020 스튜디오 슬램 설립</p>
 				<p data-scroll class="padding-left">싱어게인 무명가수전 기획</p>
 			</div>
@@ -153,7 +152,7 @@
 			</div>
 			<div class="col member__career">
 				<p data-scroll>2017 JTBC 입사</p>
-				<p data-scroll class="padding-left">효리네 민박, 효리네 민박2 , 냉장고를 부탁해, 캠핑클럽, 슈가맨3, 팬텀싱어3, </p>
+				<p data-scroll class="padding-left">효리네 민박, 효리네 민박2, 냉장고를 부탁해, 캠핑클럽, 슈가맨3, 팬텀싱어3</p>
 				<p data-scroll>2020 스튜디오 슬램 이적</p>
 				<p data-scroll class="padding-left">싱어게인</p>
 			</div>
@@ -185,24 +184,6 @@
 
 		<div class="row member__row">
 			<div class="col member__name">
-				<h4 data-scroll>김규리</h4>
-			</div>
-			<div class="col member__career">
-				<p data-scroll>2019 JTBC 입사</p>
-				<p data-scroll class="padding-left">스테이지K, 어서 말을 해, 아는형님</p>
-				<p data-scroll>2020 스튜디오 슬램 이적</p>
-				<p data-scroll class="padding-left">싱어게인</p>
-			</div>
-			<div class="col member__line"></div>
-			<div class="col member__img">
-				<div class="member__img__wrapper">
-					<img data-scroll src="<?php echo get_theme_file_uri('/images/teams/slam_kkl.jpg'); ?>" alt="" />
-				</div>
-			</div>
-		</div>
-
-		<div class="row member__row">
-			<div class="col member__name">
 				<h4 data-scroll>이주연</h4>
 			</div>
 			<div class="col member__career">
@@ -215,6 +196,24 @@
 			<div class="col member__img">
 				<div class="member__img__wrapper">
 					<img data-scroll src="<?php echo get_theme_file_uri('/images/teams/slam_ljy.jpg'); ?>" alt="" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="row member__row">
+			<div class="col member__name">
+				<h4 data-scroll>김규리</h4>
+			</div>
+			<div class="col member__career">
+				<p data-scroll>2019 JTBC 입사</p>
+				<p data-scroll class="padding-left">스테이지K, 어서 말을 해, 아는형님</p>
+				<p data-scroll>2020 스튜디오 슬램 이적</p>
+				<p data-scroll class="padding-left">싱어게인</p>
+			</div>
+			<div class="col member__line"></div>
+			<div class="col member__img">
+				<div class="member__img__wrapper">
+					<img data-scroll src="<?php echo get_theme_file_uri('/images/teams/slam_kkl.jpg'); ?>" alt="" />
 				</div>
 			</div>
 		</div>
