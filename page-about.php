@@ -256,7 +256,7 @@
 				<p data-scroll>2019 JTBC 입사</p>
 				<p data-scroll class="padding-left">악플의 밤 , 슈가맨3, 비긴어게인 코리아, 서울엔 우리집이 없다</p>
 				<p data-scroll>2021 스튜디오 슬램 이적</p>
-				<p data-scroll class="padding-left">유명가수전, 히든트랙</p>
+				<p data-scroll class="padding-left">유명가수전 히든트랙</p>
 			</div>
 			<div class="col member__line"></div>
 			<div class="col member__img">
