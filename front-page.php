@@ -3,7 +3,8 @@
 <main class="wrapper home no-header-padding" data-barba="container" data-barba-namespace="home">
 	<div class="page-body">
 		<div class="home__bg">
-			<video class="home__video" id="slamVideo" muted loop  type="video/mp4" >
+			<video class="home__video" id="slamVideo" muted playsinline loop autoplay preload="none" type="video/mp4" >
+
 			</video>
 		</div>
 		<div class="home__motto">

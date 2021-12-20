@@ -80,7 +80,7 @@
 				<p data-scroll class="padding-left">소녀시대와 위험한소년들, 신화방송, 크라임씬 시리즈, 한끼줍쇼, 슈가맨 시리즈 기획, 연출, 효리네 민박 시리즈, 캠핑클럽 기획</p>
 				<p data-scroll>2020 스튜디오 슬램 설립</p>
 				<p data-scroll class="padding-left">싱어게인 무명가수전 기획</p>
-				<p data-scroll>2021 유명가수전 기획</p>
+				<p data-scroll>2021 유명가수전, 싱어게인2 기획</p>
 			</div>
 			<div class="col member__line"></div>
 			<div class="col member__img">
@@ -100,6 +100,7 @@
 				<p data-scroll>2014 JTBC 이적</p>
 				<p data-scroll class="padding-left">크라임씬, 속사정쌀롱, 마리와 나, 걸스피릿, 효리네 민박, 효리네 민박 2, 캠핑클럽 연출</p>
 				<p data-scroll>2020 스튜디오 슬램 설립</p>
+				<p data-scroll>2021 다수의 수다 연출</p>
 			</div>
 			<div class="col member__line"></div>
 			<div class="col member__img">
@@ -129,6 +130,26 @@
 
 		<div class="row member__row">
 			<div class="col member__name">
+				<h4  data-scroll>채성욱</h4>
+			</div>
+			<div class="col member__career">
+				<p data-scroll>前 MBC PD</p>
+				<p data-scroll class="padding-left">황금어장 무릎팍도사, 라디오스타, 우리결혼했어요, 무한도전</p>
+				<p data-scroll>2014 JTBC 입사</p>
+				<p data-scroll class="padding-left">학교다녀오겠습니다, 마녀사냥, 쿡가대표, 한끼줍쇼, 날 보러와요, 해볼라고, 비긴어게인3, 방구석 1열, 독립만세 연출</p>
+				<p data-scroll>2021 스튜디오 슬램 이적</p>
+				<p data-scroll class="padding-left">싱어게인2 연출</p>
+			</div>
+			<div class="col member__line"></div>
+			<div class="col member__img">
+				<div class="member__img__wrapper">
+					<img data-scroll src="<?php echo get_theme_file_uri('/images/teams/slam_chsw.jpg'); ?>" alt="" />
+				</div>
+			</div>
+		</div>
+
+		<div class="row member__row">
+			<div class="col member__name">
 				<h4 data-scroll>박지예</h4>
 			</div>
 			<div class="col member__career">
@@ -138,11 +159,30 @@
 				<p data-scroll class="padding-left">비정상회담, 슈가맨, 말하는대로, 크라임씬3, 썰전, 전체관람가, 효리네 민박2, 캠핑클럽, 슈가맨3 </p>
 				<p data-scroll>2020 스튜디오 슬램 설립</p>
 				<p data-scroll class="padding-left">싱어게인 연출</p>
+				<p data-scroll>2021 다수의 수다 연출</p>
 			</div>
 			<div class="col member__line"></div>
 			<div class="col member__img">
 				<div class="member__img__wrapper">
 					<img data-scroll src="<?php echo get_theme_file_uri('/images/teams/slam_pjy.jpg'); ?>" alt="" />
+				</div>
+			</div>
+		</div>
+
+		<div class="row member__row">
+			<div class="col member__name">
+				<h4 data-scroll>김은지</h4>
+			</div>
+			<div class="col member__career">
+				<p data-scroll>2017 JTBC 입사</p>
+				<p data-scroll class="padding-left">썰전, 이론상완벽한남자, 비긴어게인2, 날보러와요, 트래블러-쿠바, 비긴어게인3, 트래블러-아르헨티나, 장르만코미디, 독립만세, 내가 키운다</p>
+				<p data-scroll>2021 스튜디오 슬램 이적</p>
+				<p data-scroll class="padding-left">싱어게인2</p>
+			</div>
+			<div class="col member__line"></div>
+			<div class="col member__img">
+				<div class="member__img__wrapper">
+					<img data-scroll src="<?php echo get_theme_file_uri('/images/teams/slam_kej.jpg'); ?>" alt="" />
 				</div>
 			</div>
 		</div>
@@ -156,7 +196,7 @@
 				<p data-scroll class="padding-left">효리네 민박, 효리네 민박2, 냉장고를 부탁해, 캠핑클럽, 슈가맨3, 팬텀싱어3</p>
 				<p data-scroll>2020 스튜디오 슬램 이적</p>
 				<p data-scroll class="padding-left">싱어게인</p>
-				<p data-scroll>2021 유명가수전</p>
+				<p data-scroll>2021 유명가수전, 다수의 수다</p>
 			</div>
 			<div class="col member__line"></div>
 			<div class="col member__img">
@@ -168,6 +208,27 @@
 
 		<div class="row member__row">
 			<div class="col member__name">
+				<h4 data-scroll>위재혁</h4>
+			</div>
+			<div class="col member__career">
+				<p data-scroll>前 JTBC 디지털기획팀 PD</p>
+				<p data-scroll class="padding-left">짱티비씨</p>
+				<p data-scroll>2018 JTBC 입사</p>
+				<p data-scroll class="padding-left">한끼줍쇼, 해볼라고, 냉장고를 부탁해, 이태리 오징어순대집, 77억의 사랑, 장성규니버스</p>
+				<p data-scroll>2021 스튜디오 슬램 이적</p>
+				<p data-scroll class="padding-left">다수의 수다</p>
+			</div>
+			<div class="col member__line"></div>
+			<div class="col member__img">
+				<div class="member__img__wrapper">
+					<img data-scroll src="<?php echo get_theme_file_uri('/images/teams/slam_wjh.jpg'); ?>" alt="" />
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row member__row">
+			<div class="col member__name">
 				<h4 data-scroll>황슬우</h4>
 			</div>
 			<div class="col member__career">
@@ -175,7 +236,7 @@
 				<p data-scroll class="padding-left">냉장고를 부탁해, 날 보러와요, 스테이지K, 캠핑클럽, 슈가맨3, 1호가 될 순 없어</p>
 				<p data-scroll>2020 스튜디오 슬램 이적</p>
 				<p data-scroll class="padding-left">싱어게인</p>
-				<p data-scroll>2021 유명가수전</p>
+				<p data-scroll>2021 유명가수전, 싱어게인2</p>
 			</div>
 			<div class="col member__line"></div>
 			<div class="col member__img">
@@ -194,7 +255,7 @@
 				<p data-scroll class="padding-left">크라임씬, 비정상회담1, 썰전, 걸스피릿, 한끼줍쇼, 방구석1열</p>
 				<p data-scroll>2020 스튜디오 슬램 이적</p>
 				<p data-scroll class="padding-left">싱어게인</p>
-				<p data-scroll>2021 유명가수전</p>
+				<p data-scroll>2021 유명가수전, 싱어게인2</p>
 			</div>
 			<div class="col member__line"></div>
 			<div class="col member__img">
@@ -213,7 +274,7 @@
 				<p data-scroll class="padding-left">스테이지K, 어서 말을 해, 아는형님</p>
 				<p data-scroll>2020 스튜디오 슬램 이적</p>
 				<p data-scroll class="padding-left">싱어게인</p>
-				<p data-scroll>2021 유명가수전</p>
+				<p data-scroll>2021 유명가수전, 싱어게인2</p>
 			</div>
 			<div class="col member__line"></div>
 			<div class="col member__img">
@@ -236,7 +297,7 @@
 				<p data-scroll class="padding-left">괴팍한 5형제, 팬텀싱어3, 갬성캠핑</p>
 				<p data-scroll>2020 스튜디오 슬램 이적</p>
 				<p data-scroll class="padding-left">싱어게인</p>
-				<p data-scroll>2021 유명가수전</p>
+				<p data-scroll>2021 유명가수전, 싱어게인2</p>
 			</div>
 			<div class="col member__line"></div>
 			<div class="col member__img">
@@ -256,7 +317,7 @@
 				<p data-scroll>2019 JTBC 입사</p>
 				<p data-scroll class="padding-left">악플의 밤 , 슈가맨3, 비긴어게인 코리아, 서울엔 우리집이 없다</p>
 				<p data-scroll>2021 스튜디오 슬램 이적</p>
-				<p data-scroll class="padding-left">유명가수전 히든트랙</p>
+				<p data-scroll class="padding-left">유명가수전 히든트랙, 다수의 수다</p>
 			</div>
 			<div class="col member__line"></div>
 			<div class="col member__img">
