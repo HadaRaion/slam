@@ -3,9 +3,9 @@
 <main class="wrapper home no-header-padding" data-barba="container" data-barba-namespace="home">
 	<div class="page-body">
 		<div class="home__bg">
-			<video class="home__video" id="slamVideo" muted playsinline loop autoplay preload="none" type="video/mp4" >
-
+			<video class="home__video" id="slamVideo" muted loop playsinline autoplay="autoplay" type="video/mp4" >
 			</video>
+
 		</div>
 		<div class="home__motto">
 			<h4>‘다름’을 존중하고 창조하는<br>
