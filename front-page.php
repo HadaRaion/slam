@@ -5,7 +5,6 @@
 		<div class="home__bg">
 			<video class="home__video" id="slamVideo" muted loop playsinline autoplay="autoplay" type="video/mp4" >
 			</video>
-
 		</div>
 		<div class="home__motto">
 
