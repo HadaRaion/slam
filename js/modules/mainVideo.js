@@ -7,6 +7,7 @@ const videoSource = () => {
 	} else {
 		mainVideo.src = `https://studioslam.net/wp-content/themes/slam_home_video_${videoRandomNum}.mp4`;
 		mainVideo.autoplay = true;
+		console.log(videoRandomNum);
 	}
 };
 
