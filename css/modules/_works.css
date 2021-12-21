@@ -36,7 +36,7 @@
 		background: #000;
 
 		&::before {
-			content: '';
+			/* content: '';
 			display: block;
 			height: 110%;
 			width: 100%;
@@ -45,8 +45,7 @@
 			background: $slamMid;
 			position: absolute;
 			transition: transform 0.3s var(--easing);
-			/* transform: rotate(-63deg) translateY(50%); */
-			transform: rotate(27deg) translateX(75%);
+			transform: rotate(27deg) translateX(75%); */
 		}
 
 		img {
@@ -60,13 +59,13 @@
 		}
 
 		&:hover {
-			&::before {
+			/* &::before {
 				transform: rotate(27deg) translateX(150%);
-			}
+			} */
 
 			& img {
 				opacity: 1;
-				transform: scale(1.03) translateY(-50%);
+				transform: scale(1.04) translateY(-50%);
 			}
 		}
 	}

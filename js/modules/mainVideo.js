@@ -4,7 +4,16 @@ const videoSource = () => {
 
 	if (window.matchMedia('(max-width: 700px)').matches) {
 		mainVideo.src = `https://studioslam.net/wp-content/themes/slam/slam_home_mobi.mp4`;
-		mainVideo.setAttribute('poster', 'https://studioslam.net/wp-content/uploads/2021/01/slam_main_img.jpg');
+
+		mainVideo.addEventListener('suspend', () => {
+			// We're in low-power mode, show fallback UI
+			mainVideo.setAttribute('poster', 'https://studioslam.net/wp-content/uploads/2021/12/slam_mobile_poster-scaled.jpeg');
+		});
+
+		video.addEventListener('play', () => {
+			// Remove fallback UI if user plays video manually
+			mainVideo.setAttribute('poster', '');
+		});
 	} else {
 		mainVideo.src = `http://studioslam.net/wp-content/themes/slam/slam_home_video_${videoRandomNum}.mp4`;
 		mainVideo.autoplay = true;
