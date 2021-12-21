@@ -8,6 +8,7 @@
 
 		</div>
 		<div class="home__motto">
+
 			<h4>‘다름’을 존중하고 창조하는<br>
 			크리에이터들의 공간<h4>
 		</div>
