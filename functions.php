@@ -25,6 +25,8 @@ add_action('wp_enqueue_scripts', 'studio_slam_files');
 
 function studio_slam_features()
 {
+    register_nav_menu('slamMenu','Slam Menu');
+    register_nav_menu('slamMenuEng','Slam Menu English');
     add_theme_support('title-tag'); //title 생성
     add_theme_support('post-thumbnails');
     add_image_size('slam-works-retina', 700, 1000, true);

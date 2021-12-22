@@ -16,6 +16,7 @@
   </head>
   <body <?php body_class(); ?>>
 	<div data-barba="wrapper">
+<!-- 		
 		<div class="loader">
 			<div class="loader__logo">
 				<div class="loader__logo__top">
@@ -29,6 +30,7 @@
 				</div>
 			</div>
 		</div>
+		 -->
 		<div class="transition"></div>
 		<div class="black-filter"></div>
 
@@ -39,6 +41,11 @@
 						<a class="logo" href="<?php echo site_url() ?>"><img src=<?php echo get_theme_file_uri('/images/logo_white.svg'); ?>" alt="사이트로고" /></a>
 					</div>
 					<div class="col">
+
+					<ul class="social">
+						<?php pll_the_languages(); ?>
+					</ul>
+ 
 						<!-- <ul class="social">
 							<li>
 								<a class="social__icon fab fa-instagram" href="#" target="_blank"></a>
@@ -69,13 +76,26 @@
 		<div class="menu">
 			<div class="menu__overlay"></div>
 			<nav class="menu__list">
-				<ul>
+
+			<?php 
+			if(pll_current_language() == 'ko'): 
+				wp_nav_menu(array(
+					'them_location' => 'slamMenu',
+				));
+			else:
+				wp_nav_menu(array(
+					'them_location' => 'slamMenuEng',
+				));
+			endif;
+			?>
+
+				<!-- <ul>
 					<li><a href="<?php echo site_url('/about') ?>">about</a></li>
 					<li><a href="<?php echo site_url('/works') ?>">works</a></li>
 					<li><a href="<?php echo site_url('/news') ?>">news</a></li>
 					<li><a href="<?php echo site_url('/recruit') ?>">recruit</a></li>
 					<li><a href="<?php echo site_url('/contact') ?>">contact</a></li>
-				</ul>
+				</ul> -->
 			</nav>
 		</div>
 	</div>

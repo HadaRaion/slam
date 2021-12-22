@@ -7,9 +7,17 @@
 			</video>
 		</div>
 		<div class="home__motto">
+		<?php if(pll_current_language() == 'en'){
+			?> <h4>영어다!!!<h4>
+		<?php }
+		?>
 
-			<h4>‘다름’을 존중하고 창조하는<br>
+		<?php if(pll_current_language() == 'ko'){
+			?> <h4>‘다름’을 존중하고 창조하는<br>
 			크리에이터들의 공간<h4>
+		<?php }
+		?>
+			
 		</div>
 	</div>
 </main>
