@@ -44,6 +44,7 @@
 		.menu {
 			pointer-events: unset;
 		}
+
 		& ul {
 			font-size: clamp(3rem, 4vw, 6rem);
 			font-weight: 700;

@@ -42,18 +42,18 @@
 					</div>
 					<div class="col">
 
-					<ul class="social">
+					<ul class="languages">
 						<?php pll_the_languages(); ?>
 					</ul>
- 
-						<!-- <ul class="social">
-							<li>
-								<a class="social__icon fab fa-instagram" href="#" target="_blank"></a>
-							</li>
-							<li>
-								<a class="social__icon fab fa-youtube" href="<?php echo site_url('/news') ?>"></a>
-							</li>
-						</ul> -->
+
+					<!-- <ul class="social">
+						<li>
+							<a class="social__icon fab fa-instagram" href="#" target="_blank"></a>
+						</li>
+						<li>
+							<a class="social__icon fab fa-youtube" href="#"></a>
+						</li>
+					</ul> -->
 					</div>
 				</div>
 			</div>
@@ -89,13 +89,6 @@
 			endif;
 			?>
 
-				<!-- <ul>
-					<li><a href="<?php echo site_url('/about') ?>">about</a></li>
-					<li><a href="<?php echo site_url('/works') ?>">works</a></li>
-					<li><a href="<?php echo site_url('/news') ?>">news</a></li>
-					<li><a href="<?php echo site_url('/recruit') ?>">recruit</a></li>
-					<li><a href="<?php echo site_url('/contact') ?>">contact</a></li>
-				</ul> -->
 			</nav>
 		</div>
 	</div>

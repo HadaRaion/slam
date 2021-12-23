@@ -12,6 +12,11 @@
 				</h2>
 			</div>
 
+			<?php if(pll_current_language() == 'ko'): ?> 
+
+<?php else: ?> 
+
+<?php endif; ?>
 			<div class="container-fluid justify-content-between page-body">
 				<div class="row--contact">
 					<div class="col--contact col--contact-info">

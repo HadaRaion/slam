@@ -12,6 +12,12 @@
 				<span class="letter">t</span>
 			</h2>
 		</div>
+
+	<?php if(pll_current_language() == 'ko'): ?> 
+
+<?php else: ?> 
+
+<?php endif; ?>
 		<div class="page-body">
 			<div class="container-sm">
 				<?php echo do_shortcode('[kboard id=2]'); ?>

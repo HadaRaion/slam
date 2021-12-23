@@ -4,21 +4,7 @@
 		<h2>Page</h2>
 	</div>
 		<div class="container-fluid">
-			<div id="image-slider" class="splide">
-				<div class="splide__track">
-					<ul class="splide__list">
-						<li class="splide__slide">
-							<img src="<?php echo get_theme_file_uri('/images/slam-member.jpg'); ?>">
-						</li>
-						<li class="splide__slide">
-							<img src="<?php echo get_theme_file_uri('/images/slam-member.jpg'); ?>">
-						</li>
-						<li class="splide__slide">
-							<img src="<?php echo get_theme_file_uri('/images/slam-member.jpg'); ?>">
-						</li>
-					</ul>
-				</div>
-			</div>
+페이지세팅
 		</div>	
 </main>
 

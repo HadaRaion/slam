@@ -9,6 +9,12 @@
 				<span class="letter">s</span>
 			</h2>
 		</div>
+
+	<?php if(pll_current_language() == 'ko'): ?> 
+
+<?php else: ?> 
+
+<?php endif; ?>
 		<div class="page-body">
 			<div class="container-sm works__list">
 				<?php echo do_shortcode('[kboard id=1]'); ?>

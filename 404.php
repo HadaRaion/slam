@@ -21,8 +21,13 @@ get_header();
 	</div>
 	<div class="page-body">
 		<div class="container-fluid text-center .align-items-center">
-				<h3>페이지를 찾을 수 없습니다. </h3>
-				<h4> <a href="/">홈으로 돌아가기</a> </h4>
+		<?php if(pll_current_language() == 'ko'): ?> 
+			<h3>페이지를 찾을 수 없습니다. </h3>
+			<h4> <a href="/">홈으로 돌아가기</a> </h4>
+		<?php else: ?> 
+			<h3>Can't find the page. </h3>
+			<h4> <a href="/en/">Go bake homepage.</a> </h4>
+		<?php endif; ?>
 
 		</div>	
 	</div>
