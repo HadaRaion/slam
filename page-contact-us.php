@@ -20,8 +20,8 @@
 								<p>Location.</p>
 							</div>
 							<div class="contact__info__content">
-								<p>서울시 마포구 상암산로34 디지털큐브 14층</p>
 								<p>14F / 34, Sangamsan-ro, Mapo-gu, Seoul, Republic of Korea</p>
+								<p>대한민국 서울시 마포구 상암산로34 디지털큐브 14층</p>
 							</div>
 						</div>
 
@@ -30,7 +30,7 @@
 								<p>Tel.</p>
 							</div>
 							<div class="contact__info__content">
-								<p><a href="tel:+82231510573">02. 3151. 0573</a></p>
+								<p><a href="tel:+82231510573">+822. 3151. 0573</a></p>
 							</div>
 						</div>
 
@@ -39,7 +39,7 @@
 								<p>Fax.</p>
 							</div>
 							<div class="contact__info__content">
-								<p><a href="fax:+82263508930">02. 6350. 8930</a></p>
+								<p><a href="fax:+82263508930">+822. 6350. 8930</a></p>
 							</div>
 						</div>
 

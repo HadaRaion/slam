@@ -38,13 +38,12 @@
 			<div class="container-fluid header__container">
 				<div class="row justify-content-between align-items-center row--direction-no-change">
 					<div class="col">
-						<a class="logo" href="<?php echo site_url() ?>"><img src=<?php echo get_theme_file_uri('/images/logo_white.svg'); ?>" alt="사이트로고" /></a>
+						<a class="logo" href="<?php echo pll_home_url() ?>"><img src=<?php echo get_theme_file_uri('/images/logo_white.svg'); ?>" alt="사이트로고" /></a>
 					</div>
 					<div class="col">
-
-					<ul class="languages">
-						<?php pll_the_languages(); ?>
-					</ul>
+						<ul class="languages">
+							<?php pll_the_languages(); ?>
+						</ul>
 
 					<!-- <ul class="social">
 						<li>
