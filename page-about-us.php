@@ -68,7 +68,7 @@
 		<div class="container-fluid">
 			<div class="divide-logo"><img data-scroll src="<?php echo get_theme_file_uri('/images/logo_horizontal.svg'); ?>" alt="가로버전 로고" /></div>
 		</div>
-
+<!-- 
 		<div class="container-sm member">
 			<div class="row member__row">
 				<div class="col member__name">
@@ -328,6 +328,7 @@
 				</div>
 			</div>
 		</div>
+		 -->
 	</div>
 
 </main>

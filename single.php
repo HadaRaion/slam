@@ -182,7 +182,8 @@
 			<?php  endif;
 		
 		endif; ?>
-			<!---------------- 끝 공통 ---------------->
+
+
 			<?php if (get_field('slam_img_1')) : ?>
 			<div class="row row--detail">
 				<div class="col col--detail-sub-title">

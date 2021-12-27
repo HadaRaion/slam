@@ -10,7 +10,6 @@
 		</h2>
 	</div>
 
-	<?php //<div class="container-fluid works__list page-body"> 추후 교체, 썸네일도 교체 21 line slam-works ?>
 	<div class="container-sm works__list page-body">
 		<ul class="">
 				<?php

@@ -11,13 +11,6 @@ $slamWhite: #ffffff;
 	--header-height: calc(var(--header-padding) * 2 + var(--logo-height));
 }
 
-/* @mixin atLarge {
-	:root {
-		--container-padding: 80px;
-		--header-padding: 30px;
-	}
-} */
-
 @mixin atMedium {
 	:root {
 		--container-padding: 50px;

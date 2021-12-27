@@ -16,7 +16,7 @@
   </head>
   <body <?php body_class(); ?>>
 	<div data-barba="wrapper">
-<!-- 		
+		
 		<div class="loader">
 			<div class="loader__logo">
 				<div class="loader__logo__top">
@@ -30,7 +30,7 @@
 				</div>
 			</div>
 		</div>
-		 -->
+		
 		<div class="transition"></div>
 		<div class="black-filter"></div>
 

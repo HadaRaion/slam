@@ -4,7 +4,7 @@
 		<h2>Page</h2>
 	</div>
 		<div class="container-fluid">
-페이지세팅
+
 		</div>	
 </main>
 
