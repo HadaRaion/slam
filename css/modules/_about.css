@@ -127,3 +127,29 @@
 		transform: translateY(5px);
 	}
 }
+
+.about-us .member {
+	--memeber-height: 160px;
+
+	&__row {
+		margin-bottom: 150px;
+
+		@mixin atSmall {
+			margin-bottom: 90px;
+		}
+	}
+
+	&__name {
+		width: 300px;
+
+		@mixin atSmall {
+			width: 200px;
+		}
+	}
+
+	&__img__wrapper {
+		width: 260px;
+		height: 120px;
+		overflow: hidden;
+	}
+}

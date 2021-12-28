@@ -22,18 +22,17 @@
 		<div class="container-fluid">
 			<h4 class="detail__title"><?php the_title(); ?></h4>
 
-			<div class="row row--detail">
+			<?php if(pll_current_language() == 'ko'): ?> 
+				<div class="row row--detail">
 				<div class="col col--detail-sub-title">
 					<p class="detail__sub-title">제작진.</p>
 				</div>
 				<div class="col">
-
-
 					<p>기획 / <?php the_field('slam_leader'); ?></p>
 					<p>연출 / <?php the_field('slam_pd'); ?></p>
 					<?php if (get_field('slam_writer')) : ?>
 						<p>작가 / <?php the_field('slam_writer'); ?></p>
-					<?php  endif; ?>
+					<?php  endif; ?>	
 				</div>
 			</div>
 
@@ -46,9 +45,9 @@
 						<p><?php the_field('slam_period'); ?></p>
 					</div>
 				</div>
-			<?php  endif; ?>
-
-			<?php if (get_field('slam_channel')) : ?>
+			<?php  endif; 
+			
+			if (get_field('slam_channel')) : ?>
 				<div class="row row--detail">
 					<div class="col col--detail-sub-title">
 						<p class="detail__sub-title">방송사.</p>
@@ -57,9 +56,9 @@
 						<p><?php the_field('slam_channel'); ?></p>
 					</div>
 				</div>
-			<?php  endif; ?>
-
-			<?php if (get_field('slam_platform')) : ?>
+			<?php  endif;
+			
+			if (get_field('slam_platform')) : ?>
 				<div class="row row--detail">
 					<div class="col col--detail-sub-title">
 						<p class="detail__sub-title">플랫폼.</p>
@@ -68,9 +67,9 @@
 						<p><?php the_field('slam_platform'); ?></p>
 					</div>
 				</div>
-			<?php  endif; ?>
-
-			<?php if (get_field('slam_hosts')) : ?>
+			<?php  endif;
+			
+			if (get_field('slam_hosts')) : ?>
 				<div class="row row--detail">
 					<div class="col col--detail-sub-title">
 						<p class="detail__sub-title">출연진.</p>
@@ -79,9 +78,9 @@
 						<p><?php the_field('slam_hosts'); ?></p>
 					</div>
 				</div>
-			<?php  endif; ?>
-
-			<?php if (get_field('slam_plot')) : ?>
+			<?php  endif;
+			
+			if (get_field('slam_plot')) : ?>
 				<div class="row row--detail">
 					<div class="col col--detail-sub-title">
 						<p class="detail__sub-title">기획의도.</p>
@@ -90,9 +89,9 @@
 						<p><?php the_field('slam_plot'); ?></p>
 					</div>
 				</div>
-			<?php  endif; ?>
-
-			<?php if (get_field('slam_link')) : ?>
+			<?php  endif;
+			
+			if (get_field('slam_link')) : ?>
 				<div class="row row--detail row--for-detail-link">
 					<div class="col col--detail-sub-title">
 						<p class="detail__sub-title"></p>
@@ -101,7 +100,89 @@
 						<p class="detail__link"><a href="<?php the_field('slam_link'); ?>" target="_blank" >공식홈페이지</a></p>
 					</div>
 				</div>
-			<?php  endif; ?>
+			<?php  endif;
+		
+		else: ?> 
+				<div class="row row--detail">
+				<div class="col col--detail-sub-title">
+					<p class="detail__sub-title">Crew.</p>
+				</div>
+				<div class="col">
+					<p>Crew / <?php the_field('slam_leader_en'); ?></p>
+					<p>Producer / <?php the_field('slam_pd_en'); ?></p>
+					<?php if (get_field('slam_writer_en')) : ?>
+						<p>Writer / <?php the_field('slam_writer_en'); ?></p>
+					<?php  endif; ?>
+				</div>
+			</div>
+			<?php if (get_field('slam_period_en')) : ?>
+				<div class="row row--detail">
+					<div class="col col--detail-sub-title">
+						<p class="detail__sub-title">Aired.</p>
+					</div>
+					<div class="col">
+						<p><?php the_field('slam_period_en'); ?></p>
+					</div>
+				</div>
+			<?php  endif; 
+			
+			if (get_field('slam_channel_en')) : ?>
+				<div class="row row--detail">
+					<div class="col col--detail-sub-title">
+						<p class="detail__sub-title">Channel.</p>
+					</div>
+					<div class="col">
+						<p><?php the_field('slam_channel_en'); ?></p>
+					</div>
+				</div>
+			<?php  endif;
+
+			if (get_field('slam_platform_en')) : ?>
+				<div class="row row--detail">
+					<div class="col col--detail-sub-title">
+						<p class="detail__sub-title">Platform.</p>
+					</div>
+					<div class="col">
+						<p><?php the_field('slam_platform_en'); ?></p>
+					</div>
+				</div>
+			<?php  endif; 
+			
+			if (get_field('slam_hosts_en')) : ?>
+				<div class="row row--detail">
+					<div class="col col--detail-sub-title">
+						<p class="detail__sub-title">Hosts.</p>
+					</div>
+					<div class="col">
+						<p><?php the_field('slam_hosts_en'); ?></p>
+					</div>
+				</div>
+			<?php  endif;
+			
+			if (get_field('slam_plot_en')) : ?>
+				<div class="row row--detail">
+					<div class="col col--detail-sub-title">
+						<p class="detail__sub-title">Plot.</p>
+					</div>
+					<div class="col">
+						<p><?php the_field('slam_plot_en'); ?></p>
+					</div>
+				</div>
+			<?php  endif;
+			
+			if (get_field('slam_link_en')) : ?>
+				<div class="row row--detail row--for-detail-link">
+					<div class="col col--detail-sub-title">
+						<p class="detail__sub-title"></p>
+					</div>
+					<div class="col">
+						<p class="detail__link"><a href="<?php the_field('slam_link_en'); ?>" target="_blank" >Official website</a></p>
+					</div>
+				</div>
+			<?php  endif;
+		
+		endif; ?>
+
 
 			<?php if (get_field('slam_img_1')) : ?>
 			<div class="row row--detail">
@@ -180,7 +261,12 @@
 
 		<div class="container-fluid">
 			<div class="detail__go-back">
-				<a href="<?php echo site_url('/works') ?>">Back</a>
+			<?php if(pll_current_language() == 'ko'): ?> 
+				<a href="<?php echo site_url('/works/') ?>">Back</a>
+			<?php else: ?> 
+				<a href="<?php echo site_url('/en/slam-works/') ?>">Back</a>
+			<?php endif; ?>
+				
 			</div>
 			
 		</div>
