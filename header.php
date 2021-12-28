@@ -3,11 +3,8 @@
   <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">  
-		<meta name="Description" content="'다름'을 존중하고 창조하는 크리에이터들의 공간, 스튜디오 슬램의 홈페이지에 오신 것을 환영합니다.">
-		<meta name="Keywords" content="스튜디오 슬램, 슬램, 슬램스튜디오, 예능, 예능프로그램, 드라마, 예능제작, 드라마제작, 콘텐츠, 미디어, 크리에이터, 트렌드리더, Studioslam, Studio slam, slam, jtbc, jtbc studio, jtbc 스튜디오, 레이블, 채용정보, 보도자료, 싱어게인, 무명가수전">
+		<meta name="Keywords" content="스튜디오 슬램, 슬램, 슬램스튜디오, 예능, 예능프로그램, 드라마, 예능제작, 드라마제작, Studioslam, Studio slam, slam, jtbc, jtbc studio, jtbc 스튜디오, 싱어게인, 무명가수전,  k-entertainment, k-content, k-drama, k-show, netflix, tving, korean production, korea_production, south korea production label, sing again, singagain2, dasuda, korean show">
 		<meta property="og:type" content="website"> 
-		<meta property="og:title" content="스튜디오슬램">
-		<meta property="og:description" content="'다름'을 존중하고 창조하는 크리에이터들의 공간, 스튜디오 슬램의 홈페이지에 오신 것을 환영합니다.">
 		<meta property="og:image" content="https://studioslam.net/wp-content/uploads/2021/01/cropped-210121_slam_pavicon_2.png">
 		<meta property="og:url" content="https://studioslam.net/">
 		<meta name="naver-site-verification" content="e4e662b06ffab6f86470894a0621409a59da748b" />

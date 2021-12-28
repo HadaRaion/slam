@@ -118,7 +118,7 @@
 			<?php if (get_field('slam_period_en')) : ?>
 				<div class="row row--detail">
 					<div class="col col--detail-sub-title">
-						<p class="detail__sub-title">Period.</p>
+						<p class="detail__sub-title">Aired.</p>
 					</div>
 					<div class="col">
 						<p><?php the_field('slam_period_en'); ?></p>
