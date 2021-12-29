@@ -52,6 +52,7 @@
 			height: var(--memeber-height);
 			border-right: 1px solid #fff;
 			transform: translateX(-50px) skewX(-27deg);
+
 			@mixin atSmall {
 				width: 130px;
 				height: 36px;
@@ -144,6 +145,7 @@
 
 		@mixin atSmall {
 			width: 200px;
+			height: 36px;
 		}
 	}
 
