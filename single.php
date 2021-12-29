@@ -180,7 +180,12 @@
 
 		<div class="container-fluid">
 			<div class="detail__go-back">
-				<a href="<?php echo site_url('/works') ?>">Back</a>
+			<?php if(pll_current_language() == 'ko'): ?> 
+				<a href="<?php echo site_url('/works/') ?>">Back</a>
+			<?php else: ?> 
+				<a href="<?php echo site_url('/en/slam-works/') ?>">Back</a>
+			<?php endif; ?>
+				
 			</div>
 			
 		</div>
